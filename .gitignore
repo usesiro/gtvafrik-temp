@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI & Editor traces
+.gemini
+AGENTS.md
+CLAUDE.md
+.cursor/
+.cursorrules
+.windsurf/
+.windsurf-rules
+.cline/
+cline_task.json
+rooo_task.json
+.aider*
+.vscode/
+artifacts/
+implementation_plan.md
+task.md
+walkthrough.md
+scratch/

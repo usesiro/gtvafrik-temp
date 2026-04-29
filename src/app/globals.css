@@ -1,26 +1,16 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* We use the 'brand-' prefix here */
+  --color-brand-light-blue: #EEF1FD;
+  --color-brand-dark-navy: #10224B;
+  --color-brand-vibrant-blue: #0021C1;
+  --color-brand-yellow: #FFC700;
+
+  --font-gudlak: var(--font-gudlak);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* To hide the VS Code warnings, you can add this: */
+@utility text-balance {
+  text-wrap: balance;
 }
