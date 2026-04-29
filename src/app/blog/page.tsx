@@ -48,10 +48,10 @@ export default function BlogPage() {
             {/* --- MEDIA HERO --- */}
             <section className="bg-brand-dark-navy text-white px-16 pt-12 pb-24">
                 <div className="text-[9px] uppercase tracking-[0.25em] text-white/20 mb-6 font-prompt font-bold">
-                    Home <span className="mx-2">›</span> What we do <span className="mx-2">›</span> <span className="text-brand-yellow">Media</span>
+                    Home <span className="mx-2">›</span> What we do <span className="mx-2">›</span> <span className="text-brand-yellow">Blog</span>
                 </div>
 
-                <h1 className="text-4xl font-bold mb-4 tracking-tight">Media</h1>
+                <h1 className="text-4xl font-bold mb-4 tracking-tight">Blog</h1>
                 <p className="text-white/70 text-[15px] max-w-xl mb-12 font-prompt font-light leading-relaxed">
                     Stories that shape narratives. Content that moves people across Africa and beyond.
                 </p>
