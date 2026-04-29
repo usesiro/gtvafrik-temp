@@ -12,7 +12,7 @@ const SectionHeader = ({ title, light = false }: { title: string; light?: boolea
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-white font-gudlak selection:bg-brand-yellow selection:text-brand-dark-navy">
+    <div className="min-h-screen bg-white font-prompt selection:bg-brand-yellow selection:text-brand-dark-navy">
       <Navbar activePage="Home" />
 
       {/* --- HERO SECTION --- */}
@@ -23,7 +23,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-16 relative z-10 grid grid-cols-12 items-center h-full">
           {/* Left Text Content */}
           <div className="col-span-6 text-white pr-10">
-            <div className="inline-block bg-brand-yellow text-brand-dark-navy px-2.5 py-1 rounded-sm text-[8.5px] font-bold uppercase tracking-[0.2em] mb-8">
+            <div className="inline-block bg-brand-yellow text-brand-dark-navy px-2.5 py-1 rounded-sm text-[8.5px] font-bold uppercase tracking-[0.2em] mb-8 mt-12">
               Accelerating African Narrative
             </div>
 

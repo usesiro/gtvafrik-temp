@@ -18,6 +18,7 @@ const config: Config = {
             },
             fontFamily: {
                 gudlak: ["var(--font-gudlak)"],
+                prompt: ["var(--font-prompt)"],
             },
         },
     },

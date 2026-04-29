@@ -8,6 +8,13 @@
   --color-brand-yellow: #FFC700;
 
   --font-gudlak: var(--font-gudlak);
+  --font-prompt: var(--font-prompt);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-gudlak), sans-serif;
+  }
 }
 
 /* To hide the VS Code warnings, you can add this: */

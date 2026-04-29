@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Prompt } from "next/font/google";
 import "./globals.css";
+
+const prompt = Prompt({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-prompt",
+});
 
 // Configure your custom font
 const gudlak = localFont({
@@ -31,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${gudlak.variable} antialiased`}>
+      <body className={`${gudlak.variable} ${prompt.variable} font-prompt antialiased`}>
         {children}
       </body>
     </html>
