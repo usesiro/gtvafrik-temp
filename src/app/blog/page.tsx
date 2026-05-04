@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CtaBanner from "@/components/CtaBanner";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -230,26 +231,7 @@ export default function BlogPage() {
                 </div>
             </section>
 
-            {/* --- COMPACT CTA BANNER --- */}
-            <div className="bg-brand-vibrant-blue text-white px-20 py-24 flex items-center justify-between font-prompt">
-                <div className="flex flex-col gap-3 max-w-[300px]">
-                    <h2 className="text-[26px] font-bold uppercase tracking-tight leading-none font-gudlak">Advertise with GTV AFRIK</h2>
-                    <p className="text-[8.5px] font-bold text-white/50 uppercase tracking-[0.35em]">Reach Africa's decision makers & global diaspora</p>
-                </div>
-
-                <div className="h-20 w-[1px] bg-white/10 mx-12"></div>
-
-                <div className="flex flex-col gap-3 flex-1 max-w-[300px]">
-                    <h2 className="text-[26px] font-bold uppercase tracking-tight leading-none font-gudlak">Partner with us</h2>
-                    <p className="text-[8.5px] font-bold text-white/50 uppercase tracking-[0.35em]">Advocacy, Campaigns & Media Production</p>
-                </div>
-
-                <div className="flex gap-5 items-center">
-                    <button className="border border-white/20 text-white px-8 py-3 rounded-lg font-bold text-[10px] uppercase tracking-widest hover:bg-white/10 transition-all">Contact us</button>
-                    <button className="bg-brand-yellow text-brand-dark-navy px-8 py-3 rounded-lg font-bold text-[10px] uppercase tracking-widest shadow-xl">Book an Appointment</button>
-                </div>
-            </div>
-
+            <CtaBanner />
             <Footer />
         </div>
     );
